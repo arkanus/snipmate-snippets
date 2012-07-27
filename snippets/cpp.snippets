@@ -64,3 +64,13 @@ snippet scin
 	std::cin >> ${1};
 snippet cin
 	cin >> ${1};
+
+# Documentation stuff
+snippet /**
+	/**
+	 * ${1}
+	 */
+snippet virt
+	virtual ${1:void} ${2:func}() ${3:const = 0};${4}
+snippet mfund
+	${1:virtual }${2:void} ${3:func}() ${4:const} { ${5} };${6}
