@@ -18,10 +18,8 @@ snippet vector
 
 # Namespace
 snippet ns
-	namespace ${1:`Filename('', 'my')`} {
-		${2}
+	namespace ${1:`Filename('', 'my')`} { ${2}
 	} /* namespace $1 */
-
 # Class
 snippet class
 	class ${1:`Filename('$1', 'name')`} 
